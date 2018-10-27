@@ -1,0 +1,2270 @@
+{
+    "members": [
+        {
+            "id": "lotharheinemann",
+            "firstName": "Lothar",
+            "lastName": "Heinemann",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "goerankreutzer",
+            "firstName": "Göran",
+            "lastName": "Kreutzer",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": true,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": [
+                    { "job": "safetyOfficer" }
+                ],
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "muellerandreas",
+            "firstName": "Andreas",
+            "lastName": "Müller",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "guenterschwabe",
+            "firstName": "Günter",
+            "lastName": "Schwabe",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "safetyOfficer": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "juergenschwabe",
+            "firstName": "Jürgen",
+            "lastName": "Schwabe",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": [
+                    { "job": "representativeHonorDepartment" }
+                ],
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "peterschwabe",
+            "firstName": "Peter",
+            "lastName": "Schwabe",
+            "board": true,
+            "honor": false,
+            "boardChairman": true,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "mirkotrautmann",
+            "firstName": "Mirko",
+            "lastName": "Trautmann",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "ralfwuestenhoff",
+            "firstName": "Ralf",
+            "lastName": "Wüstenhoff",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "uwevoigtritter",
+            "firstName": "Uwe",
+            "lastName": "Voigtritter",
+            "board": false,
+            "honor": true,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "aileenfriebel",
+            "firstName": "Aileen",
+            "lastName": "Friebel",
+            "board": true,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": true,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "operationalTasks": [],
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "troopMan" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "dianamilde",
+            "firstName": "Diana",
+            "lastName": "Milde",
+            "board": true,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": true,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "inesschwabe",
+            "firstName": "Ines",
+            "lastName": "Schwabe",
+            "board": true,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "childrenOfficer", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": [
+                    { "job": "childrenOfficer" }
+                ],
+                "member": [],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "marcusholbein",
+            "firstName": "Marcus",
+            "lastName": "Holbein",
+            "board": true,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "militaryCommittee": false,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "member": [
+                    { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "hendrikfriebel",
+            "firstName": "Hendrik",
+            "lastName": "Friebel",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": true,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": [
+                    { "job": "fireChief" }
+                ],
+                "member": [
+                    { "job": "chiefGuard" }
+                ],
+                "fireChief": true,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "marcelcleem",
+            "firstName": "Marcel",
+            "lastName": "Cleem",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "groupLeader": false,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": [
+                    { "job": "deputyFireChief" }
+                ],
+                "member": [
+                    { "job": "groupLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "nicojentsch",
+            "firstName": "Nico",
+            "lastName": "Jentsch",
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "board": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": true,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": [
+                    { "job": "assessor" },
+                    { "job": "equipmentOfficer" }
+                ],
+                "member": [
+                     { "job": "troopMan" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "susannpoeppich",
+            "firstName": "Susann",
+            "lastName": "Pöppich",
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "board": false,
+                "groupLeader": true,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": [
+                    { "job": "assessor" }
+                ],
+                "member": [
+                    { "job": "groupLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "steffenbaumgarten",
+            "firstName": "Steffen",
+            "lastName": "Baumgarten",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "groupLeader": true,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ma",
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "groupLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "steffenbalven",
+            "firstName": "Steffen",
+            "lastName": "Balven",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "michaelkrech",
+            "firstName": "Michael",
+            "lastName": "Krech",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": true,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": false
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": false
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "ulrichschwabe",
+            "firstName": "Ulrich",
+            "lastName": "Schwabe",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            },
+            "operationalTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "anabellthiem",
+            "firstName": "Anabell",
+            "lastName": "Thiem",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "kristinaschwabe",
+            "firstName": "Kristina",
+            "lastName": "Schwabe",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    {
+                        "name": "youthOfficer", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": true,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": [
+                    { "job": "youthOfficer" }
+                ],
+                "member": [
+                    { "job": "troopMan" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "larsmilde",
+            "firstName": "Lars",
+            "lastName": "Milde",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": true,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "troopMan" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "silviolorenz",
+            "firstName": "Silvio",
+            "lastName": "Lorenz",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    },
+                    { 
+                        "name": "ksf",
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "marcokieper",
+            "firstName": "Marco",
+            "lastName": "Kieper",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "ralfkewitz",
+            "firstName": "Ralf",
+            "lastName": "Kewitz",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "ma", 
+                        "active": true
+                    }
+                ],
+                "militaryCommittee": false,
+                "member": [
+                     { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "hennrichmartin",
+            "firstName": "Martin",
+            "lastName": "Hennrich",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "operationalTasks": [
+                    { 
+                        "name": "agt", 
+                        "active": false
+                    }
+                ],
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "henryheinz",
+            "firstName": "Henry",
+            "lastName": "Heinz",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "tillheinemann",
+            "firstName": "Till",
+            "lastName": "Heinemann",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "michaelgrzona",
+            "firstName": "Michael",
+            "lastName": "Grzona",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": true,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [
+                    { "job": "squadLeader" }
+                ],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "dirkfarwick",
+            "firstName": "Dirk",
+            "lastName": "Farwick",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "operationsDepartment": {
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": [],
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "johannesbrose",
+            "firstName": "Johannes",
+            "lastName": "Brose",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "fridabuntrock",
+            "firstName": "Frieda",
+            "lastName": "Buntrock",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "lottagruetzmueller",
+            "firstName": "Lotta",
+            "lastName": "Grützmüller",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "mikagruetzmueller",
+            "firstName": "Mika",
+            "lastName": "Grützmüller",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "rufusgruetzmueller",
+            "firstName": "Rufus",
+            "lastName": "Grützmüller",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "lenielenaliebing",
+            "firstName": "Leni Elena",
+            "lastName": "Liebing",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "travisjamianpoeppich",
+            "firstName": "Travis Jamian",
+            "lastName": "Pöppich",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "lindaschumann",
+            "firstName": "Linda",
+            "lastName": "Schumann",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "linuszimmer",
+            "firstName": "Linus",
+            "lastName": "Zimmer",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "childrenDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "hannahberlth",
+            "firstName": "Hannah",
+            "lastName": "Berlth",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "finnberlth",
+            "firstName": "Finn",
+            "lastName": "Berlth",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "selinafarwick",
+            "firstName": "Selina",
+            "lastName": "Farwick",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "ronjagiegler",
+            "firstName": "Ronja",
+            "lastName": "Giegler",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "jonasguenther",
+            "firstName": "Jonas",
+            "lastName": "Günther",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "juliaheinemann",
+            "firstName": "Julia",
+            "lastName": "Heinemann",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "sophiaheinemann",
+            "firstName": "Sophia",
+            "lastName": "Heinemann",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "lucasholbein",
+            "firstName": "Lucas",
+            "lastName": "Holbein",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "clemensliebing",
+            "firstName": "Clemens",
+            "lastName": "Liebing",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "michelleliebing",
+            "firstName": "Michelle",
+            "lastName": "Liebing",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "maxliebing",
+            "firstName": "Max",
+            "lastName": "Liebing",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "julikablommaloos",
+            "firstName": "Julika Blomma",
+            "lastName": "loos",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "sandramoertz",
+            "firstName": "Sandra",
+            "lastName": "Mörtz",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "vivienpoeppich",
+            "firstName": "Vivien",
+            "lastName": "Pöppich",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        },
+        {
+            "id": "maximilianthuemmel",
+            "firstName": "Maximilian",
+            "lastName": "Thümmel",
+            "board": false,
+            "honor": false,
+            "boardChairman": false,
+            "deputyBoardChairman": false,
+            "treasurer": false,
+            "secretary": true,
+            "assessor": false,
+            "youthDepartment": {
+                "member": [],
+                "tasks": [
+                    { 
+                        "name": "member", 
+                        "active": true
+                    }
+                ]
+            },
+            "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "troopMan": false,
+                "operationalTasks": false,
+                "militaryCommittee": false,
+                "member": false,
+                "fireChief": false,
+                "deputyFireChief": false,
+                "youthOfficer": false,
+                "childrenOfficer": false,
+                "equipmentOfficer": false,
+                "assessor": false,
+                "representativeHonorDepartment": false,
+                "saftyOfficer": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{{ui-slick slides=model.headerSlides}}
+
+<section>
+	<div class="container">
+		<h2>Förderverein</h2>
+		<p>Der Förderverein der Freiwilligen Feuerwehr Erfurt-Molsdorf e.V. wurde am 29. September 2001 gegründet.</p>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Vorstand</h3>
+				<ul>
+					{{#each model.members as |member|}}
+						<li>
+							{{t member.type}} - <strong>{{member.firstName}} {{member.lastName}}</strong>
+						</li>
+					{{/each}}
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Der Verein</h3>
+				<ul>
+					<li>
+						Vereinssitz <strong><span class="text-nowrap">Graf-Gotter-Straße 21,</span> <span class="text-nowrap">99094 Erfurt-Molsdorf,</span> <span class="text-nowrap">+49(0) 3 62 02 - 49 97 55</span></strong>
+					</li>
+					<li>
+						eingetragen bei	<strong>Amtsgericht Erfurt, Vereinsregister Nr. VR 162012</strong>
+					</li>
+					<li>
+						Mitgliederzahl <strong>{{model.membership}}</strong>
+					</li>
+				</ul>
+				{{#link-to "statute" class="btn btn-primary"}}
+					{{t "navigation.statute"}}
+				{{/link-to}}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Zweck des Vereins</h3>
+				<p>Der Förderverein hat die Aufgabe, den Feuerwehrgedanken nach den geltenden Gesetzen über den Brandschutz, die Allgemeine Hilfe und den Katastrophenschutz zu fördern. Diese Zielsetzung wird insbesondere verwirklicht durch:</p>
+				<ul>
+					<li>
+						ideelle und materielle Unterstützung des Feuerwehrwesens im Ortsteil Erfurt-Molsdorf,
+					</li>
+					<li>
+						die Wahrnehmung der Interessen der Feuerwehr und ihrer Angehörigen,
+					</li>
+					<li>
+						die Betreuung der nicht mehr aktiv tätigen Feuerwehrleute,
+					</li>
+					<li>
+						Beratung der Aufgabenträger in Fragen des Brandschutzes, der Allgemeinen Hilfe und des Katastrophenschutzes,
+					</li>
+					<li>
+						Öffentlichkeitsarbeit und Anregungen aller Art.
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Mitgliedschaft</h3>
+				<p>Dem Förderverein können angehören:</p>
+				<ul>
+					<li>
+						Feuerwehrangehörige
+						<ul>
+							<li>
+								nicht mehr aktiv tätige Feuerwehrleute
+							</li>
+							<li>
+								Ehrenmitglieder
+							</li>
+							<li>
+								fördernde Mitglieder und
+							</li>
+							<li>
+								Mitglieder der Jugendfeuerwehr mit Bambini-Gruppe
+							</li>
+						</ul>
+					</li>
+					<li>
+						Nicht mehr aktiv tätige Feuerwehrleute sind solche Personen, die Feuerwehrangehörige gewesen sind und die Altersgrenze erreicht haben oder vorher auf eigenen Wunsch und ehrenhaft aus dem Dienst ausgeschieden sind.
+					</li>
+					<li>
+						Ehrenmitglieder sind natürliche Personen, die sich besondere Verdienste um das Feuerwehrwesen erworben haben. Ehrenmitglieder werden auf Vorschlag des Vorstandes von der Mitgliederversammlung ernannt.
+					</li>
+					<li>
+						Fördernde Mitglieder können unbescholtene natürliche oder juristische Personen sein, die durch ihren Beitritt ihre Verbundenheit mit der Feuerwehr bekunden wollen.
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="highlight">
+	<div class="container">
+		<h2>Sponsor werden!</h2>
+		<p>
+			Zur <strong>Förderung der Nachwuchsarbeit</strong> (Jugendfeuerwehr mit zwei Altersklassen) können Sie auch unser <strong>Sponsor</strong> werden.
+			<br>Über die erfolgreiche Jugendarbeit können Sie sich auf folgenden Seiten informieren:
+		</p>
+		{{#link-to "youth" class="btn btn-primary"}}
+			{{t "general.details"}}
+		{{/link-to}}
+	</div>
+</section>
+
+{{outlet}}

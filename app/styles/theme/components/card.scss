@@ -1,0 +1,22 @@
+
+//
+// Card
+
+.card {
+	background-color: darken($body-bg, $color-offset-default / 4);
+	margin-bottom: $space-default * 4;
+
+	.fa {
+		margin-right: $space-default;
+	}
+
+	&.current-month {
+
+		.card-block {
+			background-color: darken($card-cap-bg, $color-offset-default * 10);
+			color: lighten($text-color-default, 100%);
+		}
+
+	}
+
+}

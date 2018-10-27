@@ -1,0 +1,70 @@
+{
+  "children-timetables": [
+    {
+      "id": 1,
+      "date": "14.01",
+      "time": "10:00",
+      "description": "Knoten und Gerätekunde"
+    },
+    {
+      "id": 2,
+      "date": "28.01",
+      "time": "10:00",
+      "description": "Fahrzeugkunde"
+    },
+    {
+      "id": 3,
+      "date": "18.02",
+      "time": "10:00",
+      "description": "5-W´s"
+    },
+    {
+      "id": 4,
+      "date": "25.02",
+      "time": "10:00",
+      "description": "Erste Hilfe"
+    },
+    {
+      "id": 5,
+      "date": "11.03",
+      "time": "10:00",
+      "description": "Knoten und Fragen"
+    },
+    {
+      "id": 6,
+      "date": "18.03",
+      "time": "10:00",
+      "description": "Knoten und Gerätekunde"
+    },
+    {
+      "id": 7,
+      "date": "01.04",
+      "time": "10:00",
+      "description": "Gruppenstafette"
+    },
+    {
+      "id": 8,
+      "date": "08.04",
+      "time": "10:00",
+      "description": "Gruppenstafette"
+    },
+    {
+      "id": 9,
+      "date": "15.04",
+      "time": "???",
+      "description": "Ostereier suchen"
+    },
+    {
+      "id": 10,
+      "date": "22.04",
+      "time": "10:00",
+      "description": "Gruppenstafette"
+    },
+    {
+      "id": 11,
+      "date": "29.04",
+      "time": "10:00",
+      "description": "Gruppenstafette"
+    }
+  ]
+}

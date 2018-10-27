@@ -1,0 +1,16 @@
+
+//
+// Emergency
+
+.emergency {
+	display: none;
+	background: $brand-primary;
+	text-align: center;
+	padding: $space-default * 1 0;
+
+	.call {
+		font-size: $text-fontSize-default * 1;
+		color: lighten($text-color-default, 100%);
+	}
+
+}

@@ -1,0 +1,38 @@
+{{ui-slick slides=model.headerSlides}}
+
+<section>
+	<div class="container">
+		<h2>{{t "navigation.honor"}}</h2>
+		<p>Die Alters- und Ehrenabteilung der FF EF-Molsdorf umfasst derzeit 8 Mitglieder.</p>
+
+		<div class="row">
+			<div class="col-md-4">
+				<h3>{{t "navigation.members"}}</h3>
+				<ul>
+					{{#each model.members as |member|}}
+						<li>
+							{{member.lastName}} {{member.firstName}}
+						</li>
+					{{else}}
+						<li>
+							Aktuell sind keine Mitglieder in unserer Ehrenabteilung.
+						</li>
+					{{/each}}
+				</ul>
+			</div>
+
+			<div class="col-md-8">
+        <h3>Öffentlichkeitsarbeit</h3>
+				<p>Mit regem Interesse wird die Entwicklung der gesamten Wehr verfolgt. Vielen der heutigen Mitglieder sind die Anfänge mit einer Tragkraftspritze TS 8, dem Kleinlöschfahrzeug B 1000 und dem Tanker S 4000 aus ihrer aktiven Zeit in guter Erinnerung.</p>
+        <p>Im Rahmen ihrer Möglichkeiten leisten sie bei Öffentlichkeitsveranstaltungen, wie dem Osterfeuer oder dem Weihnachtsmarkt einen wertvollen Beitrag.</p>
+        <p>Zu einer schönen Tradition sind auch die Busfahrten geworden, welche vom Stadtfeuerwehrverband in Verbindung mit dem Amt für Brandschutz, Rettungsdienst und Katastrophenschutz organisierten werden. Auf diese Weise wurden schon einige interessante Ausflüge unternommen, wie z.B. die Besichtigung der Flughafenfeuerwehr in Frankfurt(M), Mainz mit Besichtigung der ZDF Studios sowie der Edersee und Kloster Walkenried. Weiterhin wird jährlich eine gemeinsame Weihnachtsfeier durchgeführt.</p>
+        <p>Bei diesen Veranstaltungen werden alte Bekanntschaften mit Mitgliedern der Wehren rund um Erfurt gepflegt. Als Anerkennung für die geleistete Arbeit in der langen Zeit der Mitgliedschaft in der Feuerwehr geben diese Veranstaltungen den Mitgliedern das Gefühl „nicht vergessen zu sein".</p>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section></section>
+
+{{outlet}}

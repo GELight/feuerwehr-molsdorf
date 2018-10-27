@@ -1,0 +1,67 @@
+
+//
+// Footer
+
+.footer {
+	background: lighten($color-default, $color-offset-default * 3);
+
+	.content {
+		background: darken($color-default, $color-offset-default * 1);
+		padding: $space-default * 3 0;
+		
+		.nav {
+			display: block;
+		}
+
+		a {
+			color: darken($text-color-default, 30%);
+			font-size: $text-fontSize-default - .1;
+
+			@include media-breakpoint-down(md) {
+				display: block;
+			}
+			
+			&:hover {
+				color: lighten($text-color-default, 100%);
+				text-decoration: none;
+			}
+
+			& ~ a {
+				@include border-left(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
+				
+				@include media-breakpoint-down(md) {
+					@include border-top(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
+					border-left: 0;
+				}
+			}
+
+			.fa {
+				margin-right: $space-default / 2;
+			}
+
+		}
+
+		.text-together {
+			color: $text-color-default;
+	    font-size: $text-fontSize-default * 2;
+			margin-bottom: $space-default;
+		}
+
+	}
+
+	.copyright {
+		padding: $space-default * 3 0;
+		font-size: $text-fontSize-default - 0.2;
+		color: lighten($text-color-default, 100%);
+	}
+
+	.nav {
+		margin-bottom: $space-default * 2;
+	}
+
+	.links {
+		text-align: left;
+		color: lighten($text-color-default, 100%);
+	}
+
+}

@@ -1,0 +1,160 @@
+
+
+//
+
+// Global
+
+
+
+html,
+
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  position: relative;
+
+  min-height: 100vh;
+
+}
+
+
+
+body {
+
+	background-color: darken($body-bg, $color-offset-default / 2);
+
+	font-size: $text-fontSize-default;
+
+	padding-top: 4em;
+
+}
+
+
+
+// Global transition for all link hover
+
+a {
+
+
+
+	&:hover {
+
+		@include transition();
+
+	}
+
+
+
+}
+
+
+
+h2 {
+
+	margin-bottom: $space-default * 2;
+
+}
+
+
+
+h3 {
+
+	font-size: $h3-font-size - .4;
+
+	color: $text-color-primary;
+
+	@include border-left($text-color-primary, $border-style-default, $border-width-default * 2);
+
+	padding: $space-default / 2 0 $space-default / 2 $space-default;
+
+}
+
+
+
+@include media-breakpoint-down(md) {
+
+	h2 {
+
+		font-size: $h2-font-size - .4;
+
+	}
+
+}
+
+
+
+@include media-breakpoint-down(sm) {
+
+	h2 {
+
+		font-size: $h2-font-size;
+
+	}
+
+}
+
+
+
+//
+
+// Lists
+
+ul {
+
+  list-style: none;
+
+  padding: 0;
+
+
+
+	li {
+
+		padding-left: 1.3em;
+
+
+
+		&:before {
+
+			content: "\f00c";
+
+			font-family: FontAwesome;
+
+			display: inline-block;
+
+			margin-left: -1.3em;
+
+			width: 1.3em;
+
+		}
+
+
+
+		li {
+
+			&:before {
+
+				content: "\f0da";
+
+				font-family: FontAwesome;
+
+				display: inline-block;
+
+				margin-left: -1.3em;
+
+				width: 1.3em;
+
+			}
+
+		}
+
+
+
+	}
+
+
+
+}
+

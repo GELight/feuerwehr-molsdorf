@@ -1,0 +1,62 @@
+
+//
+// Nav
+
+.navbar {
+	background: darken($color-default, $color-offset-default * 1);
+	margin-bottom: 0.1em;
+	@include opacity(.9);
+
+	.container {
+		@include media-breakpoint-down(xs) {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	.navbar-brand {
+		
+		@include media-breakpoint-down(xs) {
+			font-size: 1em;
+			margin-top: .3em;
+		}
+
+		.fa {
+			margin-right: $space-default / 2;
+			font-size: $text-fontSize-default + .4;
+		}
+
+	}
+
+	.navbar-nav {
+		
+		.fa {
+			margin-right: $space-default / 2;
+			font-size: $text-fontSize-default * 1;
+		}
+
+	}
+
+	.navbar-collapse {
+		
+		a {
+			text-align: center;
+			padding: 1em 0;
+			
+			& ~ a {
+				
+				@include media-breakpoint-down(md) {
+					@include border-top(darken($border-color-default, $color-offset-default * 9), $border-style-default, $border-width-default);
+				}
+
+				@include media-breakpoint-up(xs) {
+					border-top: 0;
+				}
+				
+			}
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+{{ui-slick slides=model.headerSlides}}
+
+<section>
+	<div class="container">
+		<div class="nav nav-pills nav-fill" role="tablist">
+		  <div class="nav-item">
+				{{#link-to "operation.timetable" class="nav-link"}}
+					{{t "navigation.timetable"}}
+				{{/link-to}}
+		  </div>
+		  <div class="nav-item">
+				{{#link-to "operation.technology" class="nav-link"}}
+					{{t "navigation.technology"}}
+				{{/link-to}}
+		  </div>
+		  <div class="nav-item">
+				{{#link-to "operation.members" class="nav-link"}}
+					{{t "navigation.members"}}
+				{{/link-to}}
+		  </div>
+		</div>
+	</div>
+</section>
+
+<section></section>
+
+{{outlet}}

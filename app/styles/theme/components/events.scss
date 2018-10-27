@@ -1,0 +1,47 @@
+
+.events {
+	@include clearfix();
+
+	// .row.event {
+	// 	@include clearfix();
+	// 	margin-bottom: $space-default * 6;
+	// }
+
+	h2 {
+		line-height: .9em;
+	}
+
+	p,
+	[class^="col"] {
+		margin-bottom: 0;
+	}
+
+	.date {
+		font-size: 3em;
+		font-size: $text-fontSize-default * 3;
+		line-height: .8em;
+		margin: 0;
+	}
+
+	.month {
+		font-size: 2em;
+
+		@include media-breakpoint-down(sm) {
+			@include border-bottom();
+			margin-bottom: $space-default;
+		}
+
+	}
+
+	@include media-breakpoint-down(sm) {
+		text-align: center;
+	}
+
+	@include media-breakpoint-down(xs) {
+		[class^="col"] {
+			border: 0;
+	    padding-bottom: 0;
+		}
+	}
+
+}

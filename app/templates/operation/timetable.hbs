@@ -1,0 +1,37 @@
+<section>
+	<div class="container">
+
+		<div class="row">
+			
+			{{#each model.timetable as |data|}}
+				<div class="col-md-6">
+					<div class="card {{if data.currentMonth "current-month"}}">
+						<div class="card-header">{{t data.month}}</div>
+						<div class="card-block">
+							<ul>
+								{{#each data.plan as |item|}}
+									<li>
+										{{item.day}}. - {{item.time}} Uhr - 
+										{{#each item.topics as |topic|}}
+											<strong>{{topic.member}}</strong> - {{topic.description}}<br>
+										{{/each}}
+									</li>
+								{{else}}
+									<li>
+										Keine Dienste
+									</li>
+								{{/each}}
+							</ul>
+						</div>
+					</div>
+				</div>
+			{{/each}}
+
+		</div>
+		
+	</div>
+</section>
+
+<section></section>
+
+{{outlet}}
