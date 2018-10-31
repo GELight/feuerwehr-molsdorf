@@ -12,8 +12,8 @@
 
 	&.current-month {
 
-		.card-block {
-			background-color: darken($card-cap-bg, $color-offset-default * 10);
+		.card-body {
+			background-color: darken($color-info, 0%);
 			color: lighten($text-color-default, 100%);
 		}
 

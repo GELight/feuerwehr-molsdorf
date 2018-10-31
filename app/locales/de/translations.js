@@ -13,7 +13,7 @@ export default {
     youth: "Jugendfeuerwehr",
     education: "Ausbildung",
     childfirebrigade: "Kinderfeuerwehr",
-    honor: "Alters- und Ehrenabteilungf",
+    honor: "Alters- und Ehrenabteilung",
     timetable: "Dienstplan",
     technology: "Technik",
     members: "Mitglieder",
@@ -24,7 +24,7 @@ export default {
     statute: "Satzung"
   },
   footer: {
-    copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}",
+    copyright: "&copy; 2018 - {{copyrightTo}} | {{brand}}",
     imprint: "Impressum",
     dataprotection: "Datenschutz",
     disclaimer: "Haftungsausschluss"

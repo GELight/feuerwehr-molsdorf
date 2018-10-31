@@ -1,0 +1,10 @@
+server:
+  image: danlynn/ember-cli:3.5.0-node_10.12
+  environment:
+    CI: "true"
+  volumes:
+    - .:/myapp
+  ports:
+    - "4200:4200"
+    - "7020:7020"
+    - "5779:5779"

@@ -44,8 +44,9 @@ export default Route.extend({
       }),
       membership: this.store.findAll('member').then((members) => {
         let count = members.get("length");
-        if (count > 41) {
-          return 41;
+        
+        if (count > 46) {
+          return 46;
         }
         
         return count;

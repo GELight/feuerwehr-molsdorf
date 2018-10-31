@@ -1,7 +1,6 @@
-
 @import "ember-cli-bootstrap-4/functions";
-@import "../variables";	// Customizing Bootstrap - overwrite bootstrap variables
 @import "ember-cli-bootstrap-4/variables";
+@import "../variables"; // Overwrite Bootstrap Variables
 @import "ember-cli-bootstrap-4/mixins";
 @import "ember-cli-bootstrap-4/root";
 @import "ember-cli-bootstrap-4/reboot";

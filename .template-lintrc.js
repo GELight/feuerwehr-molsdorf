@@ -6,6 +6,7 @@ module.exports = {
     "attribute-indentation": false,
     "block-indentation": false,
     "no-inline-styles": false,
-    "no-unnecessary-concat": false
+    "no-unnecessary-concat": false,
+    "no-bare-strings": false
   }
 };
