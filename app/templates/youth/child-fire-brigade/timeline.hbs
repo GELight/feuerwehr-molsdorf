@@ -1,0 +1,78 @@
+{{ui-slick slides=model.headerSlides}}
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t "navigation.timeline"}}</h2>
+  </div> 
+</section>
+
+<section>
+	<div class="container">
+    <h3>Entstehung</h3>
+    <p>Aufgrund großer Nachwuchssorgen und starkem Interesse der sechs- bis neunjährigen in Molsdorf hat die FF Erfurt-Molsdorf im September 2006 die Bambini-Feuerwehr Erfurt-Molsdorf ins Leben gerufen.
+    Hier möchten wir den Kindern zwischen 6 und 9 Jahren die Feuerwehr näher bringen und interessante Veranstaltungen mit ihnen durchführen.</p>
+    <p>Der Zuspruch der Kinder und Eltern ist sehr groß, sodass der Nachwuchs der Jugendfeuerwehr Erfurt-Molsdorf, und später auch der Einsatzabteilung, in naher Zukunft gesichert sein wird.</p>
+    <p>Nachdem das Thüringer Brand- und Katastrophenschutzgesetz Ende 2006 geändert wurde, können die Freiweilligen Feuerwehren Kinder bereits ab dem 6. Lebensjahr in ihre Jugendabteilungen aufnehmen. Damit erhofft man sich eine noch bessere Nachwuchsförderung.</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <h3>Wettkämpfe - Gruppenstafette</h3>
+        <div class="list-group">
+          {{#each model.challenges as |challenge|}}
+            <div class="list-group-item justify-content-between">
+              {{#if challenge.place}}
+                <strong>
+                  {{challenge.place}}{{t "challenges.place"}}
+                  {{#if challenge.team}}
+                    ( {{challenge.team}}{{t "challenges.team"}} )
+                  {{/if}}
+                </strong>
+              {{else}}
+                {{t "challenges.noplace"}}
+                {{#if challenge.team}}
+                  ( {{challenge.team}}{{t "challenges.team"}} )
+                {{/if}}
+              {{/if}}
+              <span><strong>{{challenge.subject}}</strong> ({{challenge.city}}) - {{challenge.date}}</span>
+            </div>
+          {{/each}}
+        </div>
+        
+      </div>
+    </div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <h3>Fußballturnier</h3>
+        <div class="list-group">
+          {{#each model.football as |match|}}
+            <div class="list-group-item justify-content-between">
+              {{#if match.place}}
+                <strong>{{match.place}}{{t "challenges.place"}}</strong>
+              {{else}}
+                {{t "challenges.noplace"}}
+              {{/if}}
+              <span>{{match.ageclass}}</span>
+              <span>{{match.date}}</span>
+            </div>
+          {{/each}}
+        </div>
+        
+      </div>
+    </div>
+	</div>
+</section>
+
+<section></section>
+
+{{outlet}}

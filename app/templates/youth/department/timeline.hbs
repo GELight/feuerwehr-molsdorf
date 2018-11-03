@@ -1,0 +1,94 @@
+{{ui-slick slides=model.headerSlides}}
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t "navigation.timeline"}}</h2>
+  </div> 
+</section> 
+
+<section>
+	<div class="container">
+    <h3>Entstehung</h3>
+    <p>Im April 1994 wurde unser Ort von einer Hochwasserkatastrophe heimgesucht. Weite Teile des Ortes standen bis zu einem Meter unter Wasser. Nachdem das Wasser zurückgegeangen war, begann die Freiwillige Feuerwehr mit den erforderlichen Aufräumungsarbeiten. Während dieser Arbeiten wurde sie seitens vieler Jugendlicher tatkräftig unterstützt.</p>
+    <p>Da die Jugendlichen auch nach den Aufräumungsarbeiten Interesse an der Feuerwehrarbeit bekundeten, entschied der Wehrausschuss den Kameraden Peter Schwabe mit der Gründung und der Leitung einer Jugendfeuerwehr zu beauftragen.</p>
+    <p>Am 1. Februar 1995 war es dann soweit und die Jugendfeuerwehr Erfurt-Molsdorf war bei der Deutschen Jugendfeuerwehr registriert und konnte nun die Arbeit aufnehmen.</p>
+    <p>Der Kamerad Peter Schwabe stellte sich als Jugendwart der großen Verantwortung und sorgte mit seiner engagierte Arbeit für eine erfolgreiche Jugendabteilung und die Grundlage für die spätere Einsatzabteilung.</p>
+    <p>Diese sehr gute Arbeit wurde vom Kamerad Hendrik Friebel im Jahr 2001 fortgesetzt. Als ehemaliges Jugendfeuerwehrmitglied kannte er Probleme und Sorgen der Jugendlichen. Er sorgte in 5 Jahren für sehr erfolgreiche Jugendarbeit.</p>
+    <p>Im Januar 2006 hat Kamerad Andreas Müller das Amt des Jugendwartes übernommen um zusammen mit seinem Stellvertreter Kamerad Marcel Cleem die sehr gute Arbeit mit der Jugendfeuerwehr Erfurt-Molsdorf fortzusetzen. Beiden Kameraden waren ebenfalls aktive JF-Mitglieder.</p>
+    <p>Im Jahr 2007 übernahm Marcel Cleem den Posten des Jugendwartes. Andreas Müller übernahm aus beruflichen Gründen den Posten des Stellvertreters.</p>
+    <p>Seit Bestehen der Jugendfeuerwehr wurden insgesamt 15 Kameraden in die Einsatzabteilung übernommen, dies zeugt für diese sehr erfolgreiche Arbeit in der FF EF-Molsdorf.</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+    <h3>Wettkämpfe</h3>
+    <p>Im Rahmen des Jugendfeuerwehrzeltlagers der Stadt Erfurt nahm die JF EF-Molsdorf seit 1995 am Stadtausscheid im Bundeswettbewerb der Erfurter Jugendfeuerwehren teil.</p>
+    <p>Da alle zwei Jahre die Qualifikation für den Landesausscheid der Thüringer Jugendfeuerwehren stattfindet, konnte man durch die Ergebnisse im Stadtausscheid  an den Ausscheiden im BWB 2002 in Eisenach, 2004 in Altenburg und 2006 in Arnstadt teilnehmen, da der Sieg im Stadtausscheid im jeweils vorangegangenen Jahr die Qualifikation darstellte. Hierbei erreichte die JF EF-Molsdorf zweimal den 11. und einmal den 4. Platz. Viel Spaß und Erfahrungswerte für die Jugendlichen aber auch der Betreuer brachten die Landeszeltlager in Eisenach und Altenburg/Pahna. Der Jugendwart und die Jugendfeuerwehr möchte sich für die große Unterstützung durch die Einsatzabteilung, den Förderverein und die Sponsoren recht herzlich bedanken und hofft auch in Zukunft auf eine gute Zusammenarbeit!</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <div class="list-group">
+          {{#each model.challenges as |challenge|}}
+            <div class="list-group-item justify-content-between">
+              {{#if challenge.place}}
+                <strong>{{challenge.place}}{{t "challenges.place"}}</strong>
+              {{else}}
+                {{t "challenges.noplace"}}
+              {{/if}}
+              <span><strong>{{challenge.subject}}</strong> ({{challenge.city}}) - {{challenge.date}}</span>
+            </div>
+          {{/each}}
+        </div>
+        
+      </div>
+    </div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+    
+    <div class="row">
+      
+      <div class="col-md-6">
+        <h3>Fußballturnier</h3>
+        <p>Zur Tradition geworden ist das Fußballturnier der Jugendfeuerwehren der Stadt Erfurt.</p>
+        <div class="list-group">
+          {{#each model.football as |match|}}
+            <div class="list-group-item justify-content-between">
+              <strong>{{match.place}}{{t "challenges.place"}}</strong>
+              <span>{{match.ageclass}}</span>
+              <span>{{match.date}}</span>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Rainer-Adlung-Gedächtnis-Pokal</h3>
+        <p>Auch beim Lauf um den Rainer-Adlung-Gedächtnis-Pokal sind wir dabei.</p>
+        <div class="list-group">
+          {{#each model.runs as |run|}}
+            <div class="list-group-item justify-content-between">
+              <strong>{{run.place}}{{t "challenges.place"}}</strong>
+              <span>{{run.winner}}</span>
+              <span>{{run.date}}</span>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+      
+    </div>
+
+	</div>
+</section>
+
+
+<section></section>
+
+{{outlet}}

@@ -1,0 +1,36 @@
+{{ui-slick slides=model.headerSlides}}
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t "navigation.education"}}</h2> 
+  </div> 
+</section> 
+
+<section>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>theoretische Ausbildung</h3>
+        <p>Im Rahmen der Theoretischen Ausbildung werden die Grundlagen zu den Feuewehrthemen vermittelt. Dabei werden vor allem Themen wie Knoten und Stiche, allg. Feuerwehrtechnik und Erste Hilfe behandelt. Die Ausbildung orientiert sich an den Feuerwehrdienstvorschriften. Diese Art von Ausbildung findest zumeist in den Wintermonaten statt.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>praktische Ausbildung</h3>
+        <p>Im Rahmen der praktischen Ausbildung werden die anggeigneten theoretischen Kenntnisse vertieft und erweitert. Dabei werden vor allem Themen wie Knoten und Stiche, allg. Feuerwehrtechnik und Erste Hilfe behandelt. Die Ausbildung orientiert sich an den Feuerwehrdienstvorschriften. Die Praxis wird vorallem in den Sommermonaten absolviert.</p>
+      </div>
+    </div>
+	</div>
+</section>
+
+<section class="highlight">
+	<div class="container">
+		<h2>Wettkämpfe</h2>
+		<p>Neben den allgemeinen Ausbildung erfolgt jährlich die Teilnahme an verschiedenen Wettkämpfen.</p>
+    <p>Highlight ist der Stadtausscheid der Erfurter Jugendfeuerwehren im Bundeswettbewerb. Dabei werden ein Löschangriff (A-Teil) und ein Staffenlauf (B-Teil) absolviert.</p>
+    <p>Wettbewerbsordnung ist unter Downloads zu finden.</p>
+    {{#link-to "youth.department.timeline" class="btn btn-primary"}}
+      <i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "general.details"}}
+    {{/link-to}}
+	</div>
+</section>
+
+{{outlet}}

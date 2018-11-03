@@ -1,0 +1,63 @@
+{{ui-slick slides=model.headerSlides}}
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t "navigation.education"}}</h2> 
+  </div> 
+</section> 
+
+<section>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Hallo liebe Kinder, liebe Eltern!</h3>
+        <p>Das wollen wir mit Euch tun:</p>
+				<ul>
+					<li>
+						wir werden Euch zeigen, dass Feuer gute und schlechte Seiten hat und wie man richtig damit umgeht
+					</li>
+          <li>
+            wir werden mit Euch basteln und zeichnen
+					</li>
+          <li>
+            wir werden Experimente machen
+					</li>
+          <li>
+            wir werden Euch zeigen wie man Menschen in Not hilft
+					</li>
+          <li>
+            wir werden Euch zeigen wie man richtig Hilfe ruft
+					</li>
+          <li>
+            wir werden Euch die Regeln des Straßenverkehrs näher bringen
+					</li>
+				</ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Interesse?</h3>
+        <p>Wer also Lust auf viel Spaß hat und viel Neues erleben möchte, kann einfach zu uns kommen!!!</p>
+        {{#link-to "youth" class="btn btn-secondary"}}
+          <i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.timetable"}}
+        {{/link-to}}
+      </div>
+    </div>
+	</div>
+</section>
+
+<section class="highlight">
+	<div class="container">
+		<h2>Gruppenstafette - was ist das?</h2>
+		<p>In diesem Jahr wird es auch für die jüngsten Mitglieder der Erfurter Jugendfeuerwehren "ernst". Die Feuerwehr Erfurt haben für die Altersklasse 6 bis 9 Jahre (auch Bambini-Feuerwehr genannt) einen eigenen Wettbewerb konzipiert. Im Rahmen des 15. Stadtausscheides wird die Gruppenstafette erstmalig stattfinden.</p>
+    <p>Die Gruppenstafette setzt sich aus einem Löschangriff (Trockenübung), einem Knoten- unde einem Wissenstest zusammen. Genauere Informationen zu Ablauf und  Bewertung können der Wettbewerbsordnung entnommen werden.
+    Als Hintergrundgedanke wird im wesentlichen die Heranführung der Kinder an das Arbeiten unter feuerwehrtechnischen Bedingungen und die Förderung und Stärkung des Teamgeistes gesehen.</p>
+    <p>Kids sollen ohne großen Zwang, mit viel Spaß und Eigeninitiative diese Aufgaben bewältigen.</p>
+    <a href="/data/BWB_Wettbewerbsordnung_2008.pdf" class="btn btn-primary" target="_blank">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.competition"}} ( PDF )
+    </a>
+    <a href="/data/Gruppenstafette_AG_6_bis_9_Jahre.pdf" class="btn btn-primary" target="_blank">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.grouprelay"}} ( PDF )
+    </a>
+	</div>
+</section>
+
+{{outlet}}

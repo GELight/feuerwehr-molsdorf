@@ -1,0 +1,62 @@
+{{ui-slick slides=model.headerSlides}}
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t "navigation.childfirebrigade"}} <strong>AK 6-9</strong></h2> 
+  </div> 
+</section>
+
+<section>
+	<div class="container">
+		<div class="nav nav-pills nav-fill" role="tablist">
+		  <div class="nav-item">
+				{{#link-to "youth.child-fire-brigade.education" class="nav-link btn-lg"}}
+					<i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.education"}}
+				{{/link-to}}
+		  </div>
+      <div class="nav-item">
+				{{#link-to "youth.child-fire-brigade.timeline" class="nav-link btn-lg"}}
+					<i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.timeline"}}
+				{{/link-to}}
+		  </div>
+      <div class="nav-item">
+				{{#link-to "youth.child-fire-brigade.freetime" class="nav-link btn-lg"}}
+					<i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.freetime"}}
+				{{/link-to}}
+		  </div>
+		</div>
+	</div>
+</section>
+
+{{#each model.news as |article|}}
+  <section> 
+    <div class="container"> 
+      <div class="card">
+        <h4 class="card-header">{{article.title}}</h4>
+        <div class="card-body">
+          <div class="row"> 
+            <div class="col-md-12"> 
+              <p>{{article.description}}</p> 
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section> 
+{{/each}}
+
+{{!--
+<section class="highlight">
+	<div class="container">
+		<h2>...</h2>
+		<p>
+			<p><strong>...</strong></p>
+      <p>...</p>
+		</p>
+	</div>
+</section>
+--}}
+
+<section></section>
+
+{{outlet}}

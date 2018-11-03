@@ -1,0 +1,152 @@
+
+{{ui-slick slides=model.headerSlides}}
+
+<section>
+  <div class="container">
+    <h2>{{t "navigation.youth"}}</h2>
+    <h3>Gemeinsam für euch</h3>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Die Jugendfeuerwehr ist ein wesentlicher Bestandteil unserer Wehr. Vor der Novellierung des Thüringer Brand- und Katastrophenschutzgesetzes (ThürBKG) im Jahr 2007 war das Eintrittsalter für die Jugendfeuerwehr bei 10 Jahren. Mit der Änderung des ThürBKG wurde die Forderung der Feuerwehren verwirklicht und das Eintrittsalter auf 6 Jahre heruntergesetzt. Um trotzdem eine altersgerechte Freizeitbeschäftigung anbieten zu können, wurde festgelegt, dass die Betreuung in die Altersgruppe 6 bis 9 Jahre sowie 10 bis 18 Jahre geteilt wird.</p>
+        <p>Es ist uns ein Anliegen, den Kindern und Jugendlichen schon frühzeitig alles rund um die Feuerwehr nah zu bringen. Darunter fällt unter anderem das richtige Verhalten bei einem Brand, wie setze ich einen Notruf ab oder wie gehe ich richtig mit dem Element Feuer um. Bei dieser Arbeit wollen wir den Kindern und Jugendlichen zeigen, dass die Feuerwehr ihre Ziele nur mit Teamgeist und Zusammenarbeit erreicht. Diese Werte und der richtige Einsatz der Technik gepaart mit gut ausgebildeten Menschen ist das, was die Feuerwehr ausmacht. Nicht zuletzt ist das Ziel der Jugendarbeit in den Feuerwehren Nachwuchs für die Einsatzabteilung von Morgen zu gewinnen.</p>
+        <p>In den vergangenen Jahren haben wir mit unserer Jugendarbeit sehr viel erreicht. Dies und viele andere interessante Dinge können Sie auf den folgenden Seiten nachlesen.</p>
+        <p>Viel Spaß dabei!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <div class="card">
+          <div class="card-header">
+            {{#link-to "youth.department" class="btn btn-primary btn-sm pull-right"}}
+              {{t "general.details"}}
+            {{/link-to}}
+            {{t "navigation.youth"}} <strong>AK 10-18</strong>
+          </div>
+          <div class="card-body">
+            <p>Auf den folgenden Seiten werden Sie über die Arbeit der Jugenfeuerwehr EF-Molsdorf, Altersklasse 10 bis 18-Jährige informiert.</p>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t "navigation.timetable"}}</h4>
+                <div class="list-group">
+                  {{#each model.youth_timetable as |data|}}
+                    <div class="list-group-item justify-content-between">
+                      <div><strong>{{data.date}}</strong> - {{data.time}}</div><span>{{data.description}}</span>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t "navigation.members"}}</h4>
+                <div class="list-group">
+                  {{#each model.youth_members as |member|}}
+                    <div class="list-group-item justify-content-between">
+                      <span>
+                        <strong>{{member.firstName}} {{member.lastName}}</strong>
+                        {{#each member.youthDepartment.member as |item|}}
+                          - {{t item.job}}
+                        {{/each}}
+                      </span>
+                      <div>
+                        {{#each member.youthDepartment.tasks as |topic|}}
+                          <span class="badge badge-{{if topic.active "default" "warning"}} badge-pill text-uppercase" title="{{t topic.name}}">
+                            {{t topic.name}}{{#if topic.active}}{{else}} ( <small>{{t "currentlyNotApplicable"}}</small> ){{/if}}
+                          </span>
+                        {{/each}}
+                      </div>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                {{#link-to "youth.department" class="btn btn-primary"}}
+                  {{t "general.details"}}
+                {{/link-to}}
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+
+        <div class="card">
+          <div class="card-header">
+            {{#link-to "youth.child-fire-brigade" class="btn btn-primary btn-sm pull-right"}}
+              {{t "general.details"}}
+            {{/link-to}}
+            {{t "navigation.childfirebrigade"}} <strong>AK 6-9</strong>
+          </div>
+          <div class="card-body">
+            <p>Auf den folgenden Seiten werden Sie über die Arbeit der Jugenfeuerwehr EF-Molsdorf, Altersklasse 6 bis 9-Jährige informiert.</p>
+              
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t "navigation.timetable"}}</h4>
+                <div class="list-group">
+                  {{#each model.child_timetable as |data|}}
+                    <div class="list-group-item justify-content-between">
+                      <div><strong>{{data.date}}</strong> - {{data.time}}</div><span>{{data.description}}</span>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t "navigation.members"}}</h4>
+                <div class="list-group">
+                  {{#each model.child_members as |member|}}
+                    <div class="list-group-item justify-content-between">
+                      <span>
+                        <strong>{{member.firstName}} {{member.lastName}}</strong>
+                        {{#each member.childrenDepartment.member as |item|}}
+                          - {{t item.job}}
+                        {{/each}}
+                      </span>
+                      <div>
+                        {{#each member.childrenDepartment.tasks as |topic|}}
+                          <span class="badge badge-{{if topic.active "default" "warning"}} badge-pill text-uppercase" title="{{t topic.name}}">
+                            {{t topic.name}}{{#if topic.active}}{{else}} ( <small>{{t "currentlyNotApplicable"}}</small> ){{/if}}
+                          </span>
+                        {{/each}}
+                      </div>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                {{#link-to "youth.child-fire-brigade" class="btn btn-primary"}}
+                  {{t "general.details"}}
+                {{/link-to}}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{outlet}}
+
+<section></section>

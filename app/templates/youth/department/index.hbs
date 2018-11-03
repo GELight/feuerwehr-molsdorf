@@ -1,0 +1,59 @@
+{{ui-slick slides=model.headerSlides}}
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t "navigation.youth"}} <strong>AK 10-18</strong></h2> 
+  </div> 
+</section>
+
+<section>
+	<div class="container">
+		<div class="nav nav-pills nav-fill" role="tablist">
+		  <div class="nav-item">
+				{{#link-to "youth.department.education" class="nav-link btn-lg"}}
+					<i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.education"}}
+				{{/link-to}}
+		  </div>
+      <div class="nav-item">
+				{{#link-to "youth.department.timeline" class="nav-link btn-lg"}}
+					<i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.timeline"}}
+				{{/link-to}}
+		  </div>
+      <div class="nav-item">
+				{{#link-to "youth.department.freetime" class="nav-link btn-lg"}}
+					<i class="fa fa-arrow-right" aria-hidden="true"></i> {{t "navigation.freetime"}}
+				{{/link-to}}
+		  </div>
+		</div>
+	</div>
+</section>
+
+{{#each model.news as |article|}}
+  <section> 
+    <div class="container"> 
+      <div class="card">
+        <h4 class="card-header">{{article.title}}</h4>
+        <div class="card-body">
+          <div class="row"> 
+            <div class="col-md-12"> 
+              <p>{{article.description}}</p> 
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section> 
+{{/each}}
+
+<section class="highlight">
+	<div class="container">
+		<h2>Förderung bei der Sparkasse Mittelthüringen</h2>
+		<p>
+			<p><strong>Die Jugendfeuerwehr Erfurt-Molsdorf bedankt sich für die diesjährige Förderung bei der Sparkasse Mittelthüringen.</strong></p>
+      <p>Wir beschafften einen Kriechtunnel zur Wettbewerbsvorbereitung für unsere alljährlichen Wettbewerbe im Bundeswettbewerb, um unter realen Bedingungen trainieren zu können. Unsere Jugendfeuerwehr startet jedes Jahr im Stadtausscheid der Erfurter Jugendfeuerwehren und ist mit 28 Kindern und Jugendlichen eine der größten Jugendfeuerwehren in Erfurt.</p>
+      <p>Zudem vertreten wir seit 2002 regelmäßig alle 2 Jahre die Landeshauptstadt Erfurt zum Landesausscheid der Thüringer Jugendfeuerwehren. Die Kinder und Jugendlichen sind mit großer Begeisterung und Engagement bei der Sache, deshalb ist es uns ein Anliegen den Kinder und Jugendlichen bestmögliche und reale Trainingsbedingungen zu schaffen. In unserem 530 Einwohner zählenden Dorf ist die Jugendfeuerwehr die einzig verbliebene Kinder- und Jugendarbeit. Um diese aufrechterhalten zu können, sind wir auf Spenden und Förderungen wie die der Sparkasse Mittelthüringen angewiesen! Vielen herzlichen Dank für Ihre Unterstützung!!!</p>
+		</p>
+	</div>
+</section>
+
+{{outlet}}
