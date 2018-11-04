@@ -28,11 +28,36 @@
 		
 	}
 	
+	.navbar-collapse {
+
+		&.collapse:not(.show) {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		/*
+		@include media-breakpoint-down(md) {
+			&.collapse {
+				display: flex;
+				justify-content: center;
+			}
+		}
+		*/
+
+	}
+
 	.navbar-nav {
 		
 		.fa {
 			margin-right: $space-default / 2;
 			font-size: $text-fontSize-default * 1;
+		}
+
+		.nav-item {
+			&.active {
+				background: $color-primary;
+				color: lighten($color-default, 100%);
+			}
 		}
 		
 	}
@@ -43,7 +68,6 @@
 			text-align: center;
 			padding: 1em 0;
 			
-			/*
 			& ~ a {
 				
 				@include media-breakpoint-down(md) {
@@ -55,7 +79,6 @@
 				}
 				
 			}
-			*/
 			
 		}
 		
