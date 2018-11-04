@@ -30,9 +30,23 @@
 	
 	.navbar-collapse {
 
-		&.collapse:not(.show) {
-			display: flex;
-			justify-content: flex-end;
+		&.collapse {
+			
+			&.show {
+				display: flex;
+				justify-content: flex-end;
+
+				.navbar-nav {
+					display: block;
+					width: 100%;
+				}
+			}
+
+			&:not(.show) {
+				display: none;
+				justify-content: flex-end;
+			}
+			
 		}
 
 		/*
