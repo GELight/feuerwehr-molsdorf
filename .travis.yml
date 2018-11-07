@@ -20,9 +20,9 @@ env:
 
 before_install:
   - npm config set spin false
-  - bower install
 
 script:
+  - bower install
   - npm run lint:hbs
   - npm run lint:js
   - npm test
