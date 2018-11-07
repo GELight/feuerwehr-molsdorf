@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'feuerwehr-molsdorf-de',
+    modulePrefix: 'feuerwehr-molsdorf',
     environment,
     rootURL: '/',
     locationType: 'auto',
