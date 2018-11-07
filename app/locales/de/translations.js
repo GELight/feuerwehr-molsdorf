@@ -39,7 +39,8 @@ export default {
     honorarydepartment: "Alters- und Ehrenabteilung"
   },
   general: {
-    details: "Mehr erfahren »"
+    details: "Mehr erfahren »",
+    ageClass: "Altersklasse"
   },
   challenges: {
     place: '. Platz',

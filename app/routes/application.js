@@ -1,11 +1,7 @@
 import Route from '@ember/routing/route';
 import { hash } from 'rsvp';
-//import ResetScrollMixin from 'ember-cli-reset-scroll';
 
 export default Route.extend({
-
-  // Scroll to a specific position based on the route name (in px)
-  resetScroll: 0,
   
   model() {
 
@@ -50,6 +46,10 @@ export default Route.extend({
 
     linkTo(route) {
       this.transitionTo(route);
+    },
+
+    willTransition: function(/*transition*/) {
+      window.scrollTo(0, 0);
     }
 
   }

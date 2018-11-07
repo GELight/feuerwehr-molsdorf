@@ -1,18 +1,17 @@
 {{#if slides}}
-  
-  {{!--
+
   {{#slick-slider autoplay=true arrows=false fade=true speed=500}}
-    {{#each slides as |slide|}}
-      <div class="box" style={{slide.img}}>
+    {{#each slidesList as |slide|}}
+      <div class="box" style={{slide.background}}>
         <div class="container">
           <h2 class="headline">{{slide.headline}}</h2>
           <p class="text">{{slide.text}}</p>
         </div>
       </div>
     {{/each}}
+    
     {{yield}}
 
   {{/slick-slider}}
-  --}}
 
 {{/if}}

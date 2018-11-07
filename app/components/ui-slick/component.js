@@ -1,4 +1,5 @@
 import Component from '@ember/component';
+import { computed } from '@ember/object';
 
 export default Component.extend({
 
@@ -17,6 +18,14 @@ export default Component.extend({
         }
       ]
    */
-  slides: null
+  slides: null,
+
+  slidesList: computed('slides', function() {
+    let slides = this.get('slides');
+    return slides.map(slide => {
+      slide.background = 'background-image: url(' + slide.img + ');';
+      return slide;
+    })
+  })
 
 });
