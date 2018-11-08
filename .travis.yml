@@ -3,9 +3,6 @@ language: node_js
 node_js:
   - "10"
 
-sudo: false
-dist: trusty
-
 addons:
   chrome: stable
 
@@ -13,11 +10,6 @@ cache:
   directories:
     - $HOME/.npm
     - node_modules
-
-env:
-  global:
-    # See https://git.io/vdao3 for details.
-    - JOBS=1
 
 before_install:
   - npm config set spin false
@@ -31,3 +23,13 @@ script:
   - npm run lint:js
   - npm test
   - ember build --environment=production
+
+deploy:
+  local_dir: dist/
+  provider: pages
+  skip_cleanup: true
+  repo: feuerwehr-molsdorf/feuerwehr-molsdorf.github.io
+  target_branch: master
+  github_token: "$GITHUB_TOKEN"
+  on:
+    branch: master
