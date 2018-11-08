@@ -12,6 +12,7 @@ addons:
 cache:
   directories:
     - $HOME/.npm
+    - node_modules
 
 env:
   global:
@@ -24,8 +25,9 @@ before_install:
 before_script:
   - npm install -g bower
   - bower install
-  
+
 script:
   - npm run lint:hbs
   - npm run lint:js
   - npm test
+  - ember build --environment=production
