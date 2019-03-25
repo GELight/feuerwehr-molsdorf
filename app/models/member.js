@@ -17,4 +17,6 @@ export default DS.Model.extend({
     childrenDepartment: DS.attr(),
 
     honor: DS.attr('boolean'),
+
+    gender: DS.attr('string'),
 });

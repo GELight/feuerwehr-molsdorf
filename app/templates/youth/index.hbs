@@ -18,6 +18,68 @@
 
 <section>
   <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h4>{{t "navigation.statistic"}}</h4>
+        <div class="list-group">
+          <div class="list-group-item">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">{{t "general.ageClass"}}</th>
+                  <th scope="col">{{t "general.boys"}}</th>
+                  <th scope="col">{{t "general.girls"}}</th>
+                  <th scope="col">{{t "general.total"}}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">unter 6</th>
+                  <td></td>
+                  <td></td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">6-9</th>
+                  <td>7</td>
+                  <td>6</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <th scope="row">10-14</th>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <th scope="row">15-18</th>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <th scope="row">über 18</th>
+                  <td></td>
+                  <td></td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <th>17</th>
+                  <th>18</th>
+                  <th>35</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
     <div class="row">
       <div class="col-md-6">
         
@@ -68,7 +130,7 @@
                 </div>
               </div>
             </div>
-
+            
             <div class="row">
               <div class="col-md-12">
                 {{#link-to "youth.department" class="btn btn-primary"}}

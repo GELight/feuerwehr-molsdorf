@@ -17,6 +17,7 @@ export default {
     timetable: "Dienstplan",
     technology: "Technik",
     members: "Mitglieder",
+    statistic: "Statistik",
     timeline: "Chronik",
     freetime: "Freizeit",
     competition: "Wettbewerbsordnung",
@@ -40,7 +41,10 @@ export default {
   },
   general: {
     details: "Mehr erfahren »",
-    ageClass: "Altersklasse"
+    ageClass: "Altersklasse",
+    boys: "Jungen",
+    girls: "Mädchen",
+    total: "gesamt"
   },
   challenges: {
     place: '. Platz',
